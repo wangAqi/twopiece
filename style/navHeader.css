@@ -1,0 +1,53 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.fourthHeader{
+	width: 100%;
+	height: 32px;
+	background: #900;
+}
+.fHeader{
+	width: 1200px;
+	height: 32px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.fHeader li{
+	line-height: 32px;
+	font-family: "微软雅黑";
+	color: white;
+	height: 32px;
+	text-align: center;
+	display: block;
+	float: left;
+}
+.fHeader li p{
+	line-height: 32px;
+	font-family: "微软雅黑";
+	color: white;
+	height: 32px;
+	width: 190px;
+	float: left;
+	text-align: center;
+	background: #ce171f;
+}
+.fHeader li a{
+	line-height: 32px;
+	font-family: "微软雅黑";
+	color: white;
+	height: 32px;
+	text-align: center;
+	display: block;
+	float: left;
+	padding: 0 22px;
+	font-size: 14px;
+}
+.fHeader li:hover{
+	background: #b40c10;
+}
+.fHeader li .number1{
+	width: 130px;
+	float: right;
+}

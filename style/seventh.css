@@ -1,0 +1,17 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.seven{
+	width: 1200px;
+	height: 130px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+	background: #f2f2f2;
+}
+.maginppp{
+	margin-left: 22px;
+}

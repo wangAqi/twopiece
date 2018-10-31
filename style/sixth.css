@@ -1,0 +1,207 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.sixth{
+	width: 100%;
+	height: 470px;
+	position: relative;
+	overflow: hidden;
+}
+.sixth .leftImg{
+	width: 500px;
+	height: 1000px;
+	position: absolute;
+	left: -500px;
+}
+.sixth .mainBox{
+	width: 1200px;
+	height: 470px;
+	margin: 0 auto;
+	background:#f2f2f2;
+	position: relative;
+}
+.sixth .mainBox .rightImg{
+	position: absolute;
+	width: 500px;
+	height: 1000px;
+	left: 1200px;
+}
+.sixth .mainBox .sixleft{
+	width: 920px;
+	height: 470px;
+	margin-right: 10px;
+	background: white;
+	float: left;
+	border-bottom: 1px solid #e2e2e2;
+}
+.sixth .mainBox .sixright{
+	width: 270px;
+	height: 470px;
+	background: white;
+	float: right;
+	left: 930px;
+}
+.sixth .mainBox .sixleft .sixleftlittle{
+	width: 100%;
+	height: 35px;
+}
+.sixth .mainBox .sixleft .sixleftlittle .minilittle{
+	width: 184px;
+	float: left;
+	height: 32px;
+	border-top: 2px solid grey;
+	font-size: 15px;
+	text-align: center;
+	line-height: 35px;
+	border-bottom: 1px solid white;
+	background: #f2f2f2;
+}
+.sixth .mainBox .sixleft .sixleftlittle .minilittle:hover{
+	border-top:2px solid red;
+}
+.sixth .mainBox .sixleft .sixleftlittle2{
+	width: 100%;
+	height: 439px;
+}
+.miniminibox{
+	width: 178px;
+	height: 210px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+.miniminibox .minOne{
+	height: 14px;
+	font-size: 8px;
+	text-align: center;
+}
+.miniminibox .minTwo{
+	height: 18px;
+	font-size: 8px;
+	color: red;
+	text-align: center
+}
+.sixth .mainBox .sixright .firstOne{
+	width: 270px;
+	height: 130px;
+	float: left;
+}
+.sixth .mainBox .sixright .firstOne .m{
+	width: 135px;
+	float: left;
+	height: 33px;
+	border-top: 2px solid grey;
+	font-size: 15px;
+	text-align: center;
+	line-height: 35px;
+	border-bottom: 1px solid white;
+	background: #f2f2f2;
+}
+.sixth .mainBox .sixright .firstOne .m:hover{
+	border-top: 2px solid red;
+}
+.sixth .mainBox .sixright .firstTwo{
+	width: 268px;
+	height: 157px;
+	float: left;
+	position:relative;
+	overflow: hidden;
+}
+.sixth .mainBox .sixright .firstThree{
+	margin-top: 10px;
+	width: 270px;
+	height: 178px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	border-bottom: 1px solid #e2e2e2;
+}
+.sixth .mainBox .sixright .firstTwo .firstTwoLittle {
+	width: 1072px;
+	height: 157px;
+	position: absolute;
+}
+.sixth .mainBox .sixright .firstTwo .firstTwoLittle .a{
+	width: 268px;
+	height: 157px;
+	background: url("../images/secondOne.jpg") center no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.sixth .mainBox .sixright .firstTwo .firstTwoLittle .b{
+	width: 268px;
+	height: 157px;
+	background: url("../images/secondTwo.jpg") center no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 268px;
+}
+.sixth .mainBox .sixright .firstTwo .firstTwoLittle .c{
+	width: 268px;
+	height: 157px;
+	background: url("../images/secondThree.jpg") center no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 536px;
+}
+.sixth .mainBox .sixright .firstTwo .firstTwoLittle .d{
+	width: 268px;
+	height: 157px;
+	background: url("../images/secondOne.jpg") center no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 804px;
+}
+.navbigbox{
+	width: 81px;
+	height: 15px;
+	position: absolute;
+	top: 140px;
+	left: 50px;
+}
+.navbigbox .navlittle{
+	width: 15px;
+	height: 15px;
+	background:grey;
+	border-radius: 50%;
+	float: left;
+	margin-right: 2px;	
+}
+.sixth .mainBox .sixright .firstThree .firstThreeLittle {
+	width: 804px;
+	height: 157px;
+	position: absolute;
+	float: left;
+	top: 0px;
+	left: 0px;
+}
+.sixth .mainBox .sixright .firstThree .firstThreeLittle .e{
+	width: 268px;
+	height: 178px;
+	background: url("../images/thirdOne.png") center no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.sixth .mainBox .sixright .firstThree .firstThreeLittle .f{
+	width: 268px;
+	height: 178px;
+	background: url("../images/thirdTwo.png") center no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 268px;
+}
+.sixth .mainBox .sixright .firstThree .firstThreeLittle .g{
+	width: 268px;
+	height: 178px;
+	background: url("../images/thirdOne.png") center no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 536px;
+}
+.moveleft{
+	margin-left: 10px;
+}

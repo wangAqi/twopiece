@@ -1,0 +1,129 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.thirdHeader{
+	width: 100%;
+	height: 125px;
+	background: white;
+}
+.thirdHeader .mainBox{
+	width: 1200px;
+	height: 125px;
+	margin: 0 auto;
+}
+.thirdHeader .mainBox .oneBox{
+	width: 137px;
+	height: 65px;
+	margin-top: 30px;
+	float: left;
+}
+.thirdHeader .mainBox .twoBox{
+	width: 137px;
+	height: 65px;
+	margin-top: 30px;
+	float: left;
+	margin-left: 10px;
+}
+.thirdHeader .mainBox .threeBox{
+	width: 540px;
+	height: 61px;	
+	margin-top: 30px;
+	float: left;
+}
+.thirdHeader .mainBox .threeBox .search{
+	display: inline-block;
+	height: 32px;
+	border: 3px solid #c00;
+	position: relative;z-index: 222;
+}
+.thirdHeader .mainBox .threeBox .searchkuang{
+	width: 439px;
+	height: 22px;
+	line-height: 22px;
+	padding: 5px;
+	border: 0 none;
+}
+.thirdHeader .mainBox .threeBox .searchsub{
+	width: 85px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	border: 0px;
+	font-size: 16px;
+	color: white;
+	background: #c00;
+	font-family: "微软雅黑";
+	float: right;
+}
+.thirdHeader .mainBox .threeBox .hot{
+	width: 540px;
+	height: 23px;
+	margin-top: 5px;
+}
+.thirdHeader .mainBox .threeBox .hot li a{
+	float: left;
+	color: grey;
+	font-size: 10px;
+	line-height: 23px;
+}
+.thirdHeader .mainBox .threeBox .hot li a:hover{
+	text-decoration:underline;
+	color: red;
+}
+.thirdHeader .mainBox .threeBox .hot .colborder{
+	width: 0px;
+	height: 12px;
+	float: left;
+	border: 1px solid grey;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+.thirdHeader .mainBox .threeBox .right{
+	width: 363px;
+	height: 64px;
+	float: left;
+	margin-top: 30px;
+}
+.thirdHeader .mainBox .right .one{
+	float: left;
+	width: 45px;
+	height: 45px;
+	background: url("../images/icon.png");
+	background-position: 0px -20px;
+	margin-top: 35px;
+	margin-right: 3px;
+	margin-left: 10px;
+}
+.thirdHeader .mainBox .right .word{
+	float: left;
+	width: 45px;
+	height: 45px;
+	font-size: 15px;
+	color: grey;
+	margin-top: 40px;
+	margin-right: 3px;
+	margin-left: 5px;
+	text-align: center;
+}
+.thirdHeader .mainBox .right .two{
+	float: left;
+	width: 45px;
+	height: 45px;
+	background: url("../images/icon.png");
+	background-position: -47px -20px;
+	margin-top: 35px;
+	margin-right: 3px;
+	margin-left: 10px;
+}
+.thirdHeader .mainBox .right .three{
+	float: left;
+	width: 45px;
+	height: 45px;
+	background: url("../images/icon.png");
+	background-position: -94px -20px;
+	margin-top: 35px;
+	margin-right: 3px;
+	margin-left: 10px;
+}

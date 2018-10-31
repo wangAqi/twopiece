@@ -1,0 +1,88 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.bigbigworld{
+	width: 100%;
+	margin-top: 50px;
+}
+.mainbig{
+	width: 1200px;
+	background: white;
+	margin: 0 auto;
+	border-top: 3px solid red;
+}
+.mainleft{
+	width: 210px;
+	height: 485px;
+	float: left;
+	background: url("../images/fourthFive.jpg") center no-repeat;
+}
+.mainright{
+	width: 990px;
+	height: 485px;
+	float: left;
+	z-index: -999;
+}
+.mainright .mainrightlittle{
+	float: left;
+	width: 196px;
+	height: 242px;
+	border-bottom: 1px solid #ececec;
+	border-left: 1px solid #ececec;
+	position: relative;
+	padding-top: 10px;
+	z-index: -99;
+		padding-bottom: 20px;
+}
+.mainright .mainrightlittle .imFont{
+	font-size: 10px;
+	text-align: center;
+	width: 160px;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 40px;
+	float: left;
+	margin-left: 20px;
+}
+.lefttwolittle{
+	width: 210px;
+	height: 161px;
+	float: left;
+	background: #f2f2f2;
+}
+.lefttwolittle .mark{
+	width: 186px;
+	color: red;
+	background: #f2f2f2;
+	font-size: 15px;
+	padding-right: 5px;
+	margin-top: 10px;
+}
+.zi{
+	font-size: 12px;
+	display: block;
+	width: 48px;
+	height: 18px;
+	line-height: 18px;
+	overflow: hidden;
+	float: left;
+	margin-left: 10px;
+	color: grey;
+	margin-top: 5px;
+}
+.pig{
+	width: 990px;
+	height: 161px;
+	background: url("../images/yes.jpg") center no-repeat;
+	float: left;
+	z-index: -999;
+}
+.youhui{
+	width: 1200px;
+	height: 30px;
+	font-size: 25px;
+	margin: 0 auto;
+	line-height: 30px;
+	padding-top: 20px;
+}

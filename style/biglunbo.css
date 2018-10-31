@@ -1,0 +1,231 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.fifth{
+	width: 100%;
+	height: 470px;
+	position: relative;
+}
+.fifth .one{
+	width: 100%;
+	height: 470px;
+	position: absolute;
+	background: url("../images/firstOne.jpg") center no-repeat;
+	top: 0px;
+	left: 0px;
+	display: block;
+}
+.fifth .two{
+	width: 100%;
+	height: 470px;
+	position: absolute;
+	background: url("../images/firstTwo.jpg") center no-repeat;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+.fifth .three{
+	width: 100%;
+	height: 470px;
+	position: absolute;
+	background: url("../images/firstThree.jpg") center no-repeat;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+.fifth .four{
+	width: 100%;
+	height: 470px;
+	position: absolute;
+	background: url("../images/firstFour.jpg") center no-repeat;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+.fifth .five{
+	width: 100%;
+	height: 470px;
+	position: absolute;
+	background: url("../images/firstFive.jpg") center no-repeat;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+.fifth .six{
+	width: 100%;
+	height: 470px;
+	position: absolute;
+	background: url("../images/firstSix.jpg") center no-repeat;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+.fifth .seven{
+	width: 100%;
+	height: 470px;
+	position: absolute;
+	background: url("../images/firstSeven.jpg") center no-repeat;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+.fifth .eight{
+	width: 100%;
+	height: 470px;
+	position: absolute;
+	background: url("../images/firstEight.jpg") center no-repeat;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+.fifth .nine{
+	width: 100%;
+	height: 470px;
+	position: absolute;
+	background: url("../images/firstNine.jpg") center no-repeat;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+.fifth .big{
+	width: 1200px;
+	height: 470px;
+	position: relative;
+	margin: 0 auto;
+}
+.fifth .bignav{
+	width: 250px;
+	height: 25px;
+	position: absolute;
+	display: block;
+	top: 430px;
+	left: 500px;
+	z-index: 200;
+}
+.fifth .bignav .littlenav{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: black;
+	color: white;
+	text-align: center;
+	line-height: 25px;
+	float: left;
+	margin-right: 2px;
+}
+.fifth .big .right{
+	width: 190px;
+	height: 470px;
+	float: right;
+	position: relative;
+}
+.fifth .big .right li{
+	width: 190px;
+	height: 156px;
+	float: left;
+	position: relative;
+	margin-top: 1px;
+}
+.fifth .big .left{
+	width: 190px;
+	height: 470px;
+	position: absolute;
+}
+.fifth .big .left .littlebox{
+	width: 190px;
+	height: 81px;
+	background: white;
+	float: left;
+	padding: 0 10px;
+	border-left: 3px solid white;
+}
+.fifth .big .left .littlebox:hover{
+	border-left: 3px solid red;
+}
+.fifth .big .left .mini{
+	width: 190px;
+	height: 65px;
+	background: white;
+	float: left;
+	padding: 0 10px;
+	border-left: 3px solid white;
+}
+.fifth .big .left .mini .iconOne{
+	display: block;
+	float: left;
+	width: 14px;
+	height: 20px;
+	background-position: -73px -260px;
+	background: url("../images/icon.png");
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.fifth .big .left .mini .littlelittle{
+	width: 100%;
+	height: 32px;
+	font-size: 15px;
+	line-height: 32px;
+	float: left;
+}
+.fifth .big .left .littlebox .iconOne{
+	display: block;
+	float: left;
+	width: 14px;
+	height: 20px;
+	background-position: -73px -260px;
+	background: url("../images/icon.png");
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.fifth .big .left .littlebox .littlelittle{
+	width: 100%;
+	height: 32px;
+	font-size: 15px;
+	line-height: 32px;
+	float: left;
+}
+
+.fifth .big .left .littlebox .special{
+	float: left;
+	font-size: 8px;
+	color: grey;
+	background: orange;
+	padding: 0 4px;
+	margin-right: 3px;
+}
+
+
+.fifth .big .left .littlebox li a{
+	float: left;
+	font-size: 8px;
+	color: grey;
+}
+.fifth .big .left .mini .special{
+	float: left;
+	font-size: 8px;
+	color: grey;
+	background: orange;
+	padding: 0 4px;
+	margin-right: 3px;
+}
+.fifth .big .left .mini li a{
+	float: left;
+	font-size: 8px;
+	color: grey;
+	margin-top: -5px;
+}
+.middleBox{
+	width: 620px;
+	height: 470px;
+	float: left;
+	background: white;
+	left: 185px;
+	z-index: 444;
+	position: absolute;
+	display: none;
+	text-align: center;
+	line-height: 200px;
+	font-size: 50px;
+}
